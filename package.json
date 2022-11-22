@@ -1,0 +1,32 @@
+{
+	"name": "minimalistcss",
+	"version": "1.0.0",
+	"description": "MinimalistCSS is a SCSS/CSS Framework",
+	"main": "scss/minimalist.scss",
+	"unpkg": "dist/minimalist.min.css",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MinimalistCSS/MinimalistCSS.git"
+	},
+	"scripts": {
+		"build-dist-lite": "node-sass --output-style expanded --source-map true scss/lite.scss dist/lite.minimalist.css && node-sass --source-map true --output-style compressed scss/lite.scss dist/lite.minimalist.min.css",
+		"build-dist": "node-sass --output-style expanded --source-map true scss/minimalist.scss dist/minimalist.css && node-sass --source-map true --output-style compressed scss/minimalist.scss dist/minimalist.min.css",
+		"build": "npm run build-dist && npm run build-dist-lite"
+	},
+	"author": "MinimalistCSS <wayne6324@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"css",
+		"scss",
+		"framework",
+		"ui",
+		"frontend"
+	],
+	"bugs": {
+		"url": "https://github.com/MinimalistCSS/MinimalistCSS/issues"
+	},
+	"homepage": "https://github.com/MinimalistCSS/MinimalistCSS#readme",
+	"devDependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
