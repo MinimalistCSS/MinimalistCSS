@@ -1,11 +1,12 @@
-$cool-colors: ( // gray colors
-    'gray-darkest': #36454F,
-    'gray-darker':#465966,
-    'gray-dark': #566E7E,
-    'gray': #668295,
-    'gray-light': #B7C4CD,
-    'gray-lighter': #E4E8EB,
-    'gray-lightest': #EEF1F5,
+$cool-colors: (
+	// gray colors
+	"gray-darkest": #36454f,
+	"gray-darker": #465966,
+	"gray-dark": #566e7e,
+	"gray": #668295,
+	"gray-light": #b7c4cd,
+	"gray-lighter": #e4e8eb,
+	"gray-lightest": #eef1f5
 ) !default;
 
-@import 'minimalist.scss';
+@import "minimalist.scss";
