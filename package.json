@@ -9,7 +9,7 @@
 		"url": "git+https://github.com/MinimalistCSS/MinimalistCSS.git"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
+		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
 		"build-dist-lite": "node-sass --output-style expanded --source-map true scss/lite.scss dist/lite.minimalist.css && node-sass --source-map true --output-style compressed scss/lite.scss dist/lite.minimalist.min.css",
