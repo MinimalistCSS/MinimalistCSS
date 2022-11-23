@@ -28,7 +28,7 @@
 	"bugs": {
 		"url": "https://github.com/MinimalistCSS/MinimalistCSS/issues"
 	},
-	"homepage": "https://github.com/MinimalistCSS/MinimalistCSS#readme",
+	"homepage": "https://minimalistcss.github.io/",
 	"devDependencies": {
 		"node-sass": "^8.0.0"
 	}
