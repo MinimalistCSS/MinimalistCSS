@@ -134,5 +134,5 @@ $cool-colors: ( //blue
 
 $all-colors : map-merge($base-colors, $cool-colors);
 
-$gradient-colors : ('blue', 'indigo', 'gray', 'purple', 'pink', 'red', 'orange', 'yellow', 'pear', 'green', 'mint', 'teal', 'slategray', 'brown', 'wine', 'almond') !default;
-$shadow-colors : ('blue', 'indigo', 'gray', 'purple', 'pink', 'red', 'orange', 'yellow', 'pear', 'green', 'mint', 'teal', 'slategray', 'brown', 'wine', 'almond') !default;
+$gradient-colors : ('blue', 'indigo', 'gray', 'purple', 'pink', 'red', 'orange', 'yellow', 'pear', 'green', 'mint', 'teal', 'slategray', 'brown', 'wine', 'almond', 'black') !default;
+$shadow-colors : ('blue', 'indigo', 'gray', 'purple', 'pink', 'red', 'orange', 'yellow', 'pear', 'green', 'mint', 'teal', 'slategray', 'brown', 'wine', 'almond', 'black') !default;

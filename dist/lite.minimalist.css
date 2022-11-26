@@ -1315,11 +1315,39 @@ background position
   background-image: -o-linear-gradient(to right, #808080 0%, #708090 100%);
 }
 
+.gray-black {
+  background-image: linear-gradient(to right, #808080 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(to right, #808080 0%, #000000 100%);
+  background-image: -moz-linear-gradient(to right, #808080 0%, #000000 100%);
+  background-image: -o-linear-gradient(to right, #808080 0%, #000000 100%);
+}
+
 .slategray-gray {
   background-image: linear-gradient(to right, #708090 0%, #808080 100%);
   background-image: -webkit-linear-gradient(to right, #708090 0%, #808080 100%);
   background-image: -moz-linear-gradient(to right, #708090 0%, #808080 100%);
   background-image: -o-linear-gradient(to right, #708090 0%, #808080 100%);
+}
+
+.slategray-black {
+  background-image: linear-gradient(to right, #708090 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(to right, #708090 0%, #000000 100%);
+  background-image: -moz-linear-gradient(to right, #708090 0%, #000000 100%);
+  background-image: -o-linear-gradient(to right, #708090 0%, #000000 100%);
+}
+
+.black-gray {
+  background-image: linear-gradient(to right, #000000 0%, #808080 100%);
+  background-image: -webkit-linear-gradient(to right, #000000 0%, #808080 100%);
+  background-image: -moz-linear-gradient(to right, #000000 0%, #808080 100%);
+  background-image: -o-linear-gradient(to right, #000000 0%, #808080 100%);
+}
+
+.black-slategray {
+  background-image: linear-gradient(to right, #000000 0%, #708090 100%);
+  background-image: -webkit-linear-gradient(to right, #000000 0%, #708090 100%);
+  background-image: -moz-linear-gradient(to right, #000000 0%, #708090 100%);
+  background-image: -o-linear-gradient(to right, #000000 0%, #708090 100%);
 }
 
 /*
@@ -8677,6 +8705,31 @@ Shadow
 .shadow-4-slategray,
 .hover-shadow-4-slategray:hover {
   box-shadow: 0 25px 40px -8px rgba(112, 128, 144, 0.25);
+}
+
+.shadow-black,
+.hover-shadow-black:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.shadow-1-black,
+.hover-shadow-1-black:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-2-black,
+.hover-shadow-2-black:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-3-black,
+.hover-shadow-3-black:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-4-black,
+.hover-shadow-4-black:hover {
+  box-shadow: 0 25px 40px -8px rgba(0, 0, 0, 0.25);
 }
 
 .focus-black:focus {
