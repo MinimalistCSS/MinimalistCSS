@@ -67,7 +67,7 @@ background color
 
 .bg-white,
 .hover-bg-white:hover {
-  background-color: #ffffff !important;
+  background-color: #FFFFFF !important;
 }
 
 .bg-transparent,
@@ -3858,11 +3858,11 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 .bc-white,
 .hover-bc-white:hover,
 .focus-bc-white:focus {
-  border-color: #ffffff !important;
+  border-color: #FFFFFF !important;
 }
 
 .border-white {
-  border: 1px solid #ffffff !important;
+  border: 1px solid #FFFFFF !important;
 }
 
 .bc-transparent,
@@ -6541,7 +6541,7 @@ text color, font color
 
 .white,
 .hover-white:hover {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 .transparent,
@@ -7305,7 +7305,7 @@ underline-color
 
 .underline-white {
   text-decoration: underline;
-  text-decoration-color: #ffffff !important;
+  text-decoration-color: #FFFFFF !important;
 }
 
 .underline-transparent {
@@ -7581,7 +7581,7 @@ shorthand: .text-stroke-{color}
 .text-stroke-white,
 .hover-text-stroke-white:hover {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ffffff !important;
+  -webkit-text-stroke-color: #FFFFFF !important;
 }
 
 .text-stroke-transparent,
@@ -7685,7 +7685,7 @@ shorthand: .text-fill-{color}
 
 .text-fill-white,
 .hover-text-fill-white:hover {
-  -webkit-text-fill-color: #ffffff;
+  -webkit-text-fill-color: #FFFFFF;
 }
 
 .text-fill-transparent,
@@ -8685,7 +8685,7 @@ Shadow
 }
 
 .focus-white:focus {
-  border-color: #ffffff !important;
+  border-color: #FFFFFF !important;
   box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25) !important;
 }
 
@@ -20053,7 +20053,7 @@ cursor
 
 .ph-white::placeholder,
 .focus-ph-white:focus::placeholder {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 .ph-transparent::placeholder,
@@ -20665,7 +20665,7 @@ select
   align-items: center;
   justify-content: center;
   line-height: 1.5;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
