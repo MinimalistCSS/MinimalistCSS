@@ -47,7 +47,7 @@ Run the build command to build `dist` files
 
 ## Documentation
 
-Docs can be found at https://minimalistcss.github.io/docs
+Docs can be found at https://minimalistcss.github.io/getting-started/
 
 ## License
 

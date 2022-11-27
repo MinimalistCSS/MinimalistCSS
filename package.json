@@ -1,6 +1,6 @@
 {
 	"name": "minimalistcss",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"description": "MinimalistCSS is a SCSS/CSS Framework",
 	"main": "scss/minimalist.scss",
 	"unpkg": "dist/minimalist.min.css",
