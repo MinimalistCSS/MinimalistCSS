@@ -1,0 +1,11 @@
+/**
+fill-color
+code: .fill-{color}
+*/
+
+@each $name, $value in $all-colors {
+	.fill-#{$name},
+	.fill-#{$name}:hover {
+		fill: $value !important;
+	}
+}

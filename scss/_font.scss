@@ -225,7 +225,7 @@ word-wrap
 
 /**
 text-stroke-width
-shorthand: .text-stroke-{width}
+code: .text-stroke-{width}
 */
 
 @each $size, $value in $border-width {
@@ -236,7 +236,7 @@ shorthand: .text-stroke-{width}
 
 /**
 text-stroke-color
-shorthand: .text-stroke-{color}
+code: .text-stroke-{color}
 */
 
 @each $name, $value in $all-colors {
@@ -249,7 +249,7 @@ shorthand: .text-stroke-{color}
 
 /**
 text-fill-color
-shorthand: .text-fill-{color}
+code: .text-fill-{color}
 */
 
 @each $name, $value in $all-colors {

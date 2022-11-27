@@ -9,7 +9,7 @@ border, border-radius, border-width, border-color, border-style
 
 /**
 border-radius
-shorthand: .br-{t|r|b|l}-{radius}
+code: .br-{t|r|b|l}-{radius}
 */
 @each $size, $value in $border-radius {
 	@include border-radius("br", $size, $value);
@@ -25,7 +25,7 @@ shorthand: .br-{t|r|b|l}-{radius}
 
 /**
 border-width
-shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
+code: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 */
 
 @each $size, $value in $border-width {
@@ -61,7 +61,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 }
 /**
   border-color
-  shorthand: .bc-{color}, .border-{color}
+  code: .bc-{color}, .border-{color}
   */
 
 @each $name, $value in $all-colors {
@@ -78,7 +78,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 
 /**
   border color alpha
-  shorthand: .bc-{color}-{alpha}, .border-{color}-{alpha}
+  code: .bc-{color}-{alpha}, .border-{color}-{alpha}
 */
 
 @each $alpha-key, $alpha-value in $alpha-options {
@@ -104,7 +104,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 $border-styles: (none, dotted, dashed, solid, double) !default;
 /**
   border style
-  shorthand: .{screen}-border-{style}
+  code: .{screen}-border-{style}
 */
 
 @each $style-name in $border-styles {
