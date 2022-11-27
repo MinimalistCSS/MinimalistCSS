@@ -54,9 +54,16 @@ $display-options: (
 );
 
 @each $display-key, $display-value in $display-options {
-	.#{$display-key} {
-		display: $display-value !important;
-	}
+    @if $display-key != "flex" {
+        .#{$display-key} {
+		    display: $display-value !important;
+	    }
+    }
+    @else {
+        .#{$display-key}, .center-center {
+		    display: $display-value !important;
+	    }
+    }
 }
 @each $breakpoint in map-keys($breakpoints) {
 	@include breakpoint-up($breakpoint) {

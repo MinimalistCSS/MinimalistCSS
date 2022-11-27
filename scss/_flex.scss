@@ -52,7 +52,7 @@ $justify-content-options: (
 );
 
 @each $key, $value in $justify-content-options {
-	.justify-#{$key} {
+	.justify-#{$key}, .#{$key}-#{$value} {
 		justify-content: $value !important;
 	}
 }
@@ -107,7 +107,7 @@ $align-items-options: (
 );
 
 @each $key, $value in $align-items-options {
-	.items-#{$key} {
+	.items-#{$key}, .#{$key}-#{$value} {
 		align-items: $value !important;
 	}
 }
@@ -135,7 +135,7 @@ $align-self-options: (
 );
 
 @each $key, $value in $align-self-options {
-	.self-#{$key} {
+	.self-#{$key}, .#{$key}-#{$value} {
 		align-self: $value !important;
 	}
 }
