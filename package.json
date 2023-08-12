@@ -29,7 +29,7 @@
 		"url": "https://github.com/MinimalistCSS/MinimalistCSS/issues"
 	},
 	"homepage": "https://minimalistcss.github.io/",
-	"devDependencies": {
-		"node-sass": "^8.0.0"
+	"dependencies": {
+		"node-sass": "^9.0.0"
 	}
 }
