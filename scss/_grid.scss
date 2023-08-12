@@ -1,0 +1,115 @@
+/*
+Typography:
+  gaps
+*/
+
+/**
+Gaps
+*/
+@each $size, $value in $gaps {
+	.gap-#{$size} {
+		gap: $value !important;
+	}
+
+	.gapx-#{$size} {
+		column-gap: $value !important;
+	}
+
+	.gapy-#{$size} {
+		row-gap: $value !important;
+	}
+}
+
+/**
+Auto Rows
+*/
+
+@each $size, $value in $auto-rows {
+	.auto-rows-#{$size} {
+		grid-auto-rows: $value !important;
+	}
+}
+
+/**
+Auto Cols
+*/
+
+@each $size, $value in $auto-cols {
+	.auto-cols-#{$size} {
+		grid-auto-columns: $value !important;
+	}
+}
+
+/**
+Auto Flow
+*/
+
+@each $size, $value in $auto-flows {
+	.grid-auto-#{$size} {
+		grid-auto-flow: $value !important;
+	}
+}
+
+/**
+Grid Row
+*/
+
+@each $size, $value in $grid-row {
+	.row-#{$size} {
+		grid-row: $value !important;
+	}
+}
+
+@each $size, $value in $grid-row-start {
+	.row-start-#{$size} {
+		grid-row-start: $value !important;
+	}
+}
+
+@each $size, $value in $grid-row-end {
+	.row-end-#{$size} {
+		grid-row-end: $value !important;
+	}
+}
+
+/**
+Grid Rows
+*/
+
+@each $size, $value in $grid-rows {
+	.grid-rows-#{$size} {
+		grid-template-rows: $value !important;
+	}
+}
+
+/**
+Grid Col
+*/
+
+@each $size, $value in $grid-col {
+	.col-#{$size} {
+		grid-column: $value !important;
+	}
+}
+
+@each $size, $value in $grid-col-start {
+	.col-start-#{$size} {
+		grid-column-start: $value !important;
+	}
+}
+
+@each $size, $value in $grid-col-end {
+	.col-end-#{$size} {
+		grid-column-end: $value !important;
+	}
+}
+
+/**
+Grid Cols
+*/
+
+@each $size, $value in $grid-cols {
+	.grid-cols-#{$size} {
+		grid-template-columns: $value !important;
+	}
+}

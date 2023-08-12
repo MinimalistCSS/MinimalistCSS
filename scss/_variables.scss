@@ -57,6 +57,7 @@ $alpha-options: (
 ) !default;
 
 $paddings: (
+    px: 1px,
 	0: 0,
 	1: 1 * 0.25rem,
 	2: 2 * 0.25rem,
@@ -100,6 +101,7 @@ $margins: map-merge(
 );
 
 $width-size: (
+    px: 1px,
 	0: 0,
 	1: 1 * 0.25rem,
 	2: 2 * 0.25rem,
@@ -154,6 +156,7 @@ $width-size: (
 ) !default;
 
 $height-size: (
+    px: 1px,
 	0: 0,
 	1: 1 * 0.25rem,
 	2: 2 * 0.25rem,
@@ -233,6 +236,191 @@ $font-weight: (
 	800: 800,
 	900: 900,
 	bold: bold,
+) !default;
+
+/**
+Order
+*/
+$order-options: (
+	first: -999,
+	last: 999,
+	none: 0,
+	1: 1,
+	2: 2,
+	3: 3,
+	4: 4,
+	5: 5,
+	6: 6,
+	7: 7,
+	8: 8,
+	9: 9,
+	10: 10,
+	11: 11,
+	12: 12,
+) !default;
+
+$gaps: (
+    px: 1px,
+    0: 0,
+	1: 0.25rem,
+	2: 0.5rem,
+	3: 0.75rem,
+	4: 1rem,
+	5: 1.25rem,
+	6: 1.5rem,
+	7: 1.75rem,
+    8: 2rem,
+    9: 2.25rem,
+    10: 2.5rem,
+    11: 2.75rem,
+    12: 3rem,
+    14: 3.5rem,
+    16: 4rem,
+    18: 4.5rem,
+    20: 5rem,
+    24: 6rem,
+    28: 7rem,
+    32: 8rem,
+    36: 9rem,
+    40: 10rem,
+    44: 11rem,
+    48: 12rem,
+    52: 13rem,
+    56: 14rem,
+    60: 15rem,
+    64: 16rem,
+    80: 20rem,
+    96: 24rem,
+) !default;
+
+$auto-rows: (
+	auto: auto,
+	min: min-content,
+	max: max-content,
+	fr: minmax(0, 1fr),
+) !default;
+
+$auto-cols: (
+	auto: auto,
+	min: min-content,
+	max: max-content,
+	fr: minmax(0, 1fr),
+) !default;
+
+$auto-flows: (
+	row: row,
+	col: column,
+	dense: dense,
+	row-dense: row dense,
+    col-dense: column dense,
+) !default;
+
+$grid-row: (
+	auto: auto,
+	span-1: span 1 / span 1,
+    span-2: span 2 / span 2,
+    span-3: span 3 / span 3,
+    span-4: span 4 / span 4,
+    span-5: span 5 / span 5,
+    span-6: span 6 / span 6,
+    span-full: 1 / -1,
+) !default;
+
+$grid-row-start: (
+	1: 1,
+	2: 2,
+    3: 3,
+	4: 4,
+    5: 5,
+	6: 6,
+    7: 7,
+	8: 8,
+    auto: auto,
+) !default;
+
+$grid-row-end: (
+	1: 1,
+	2: 2,
+    3: 3,
+	4: 4,
+    5: 5,
+	6: 6,
+    7: 7,
+	8: 8,
+    auto: auto,
+) !default;
+
+$grid-rows: (
+	1: repeat(1, minmax(0, 1fr)),
+    2: repeat(2, minmax(0, 1fr)),
+    3: repeat(3, minmax(0, 1fr)),
+    4: repeat(4, minmax(0, 1fr)),
+    5: repeat(5, minmax(0, 1fr)),
+    6: repeat(6, minmax(0, 1fr)),
+    7: repeat(7, minmax(0, 1fr)),
+    8: repeat(8, minmax(0, 1fr)),
+    9: repeat(9, minmax(0, 1fr)),
+    10: repeat(10, minmax(0, 1fr)),
+    11: repeat(11, minmax(0, 1fr)),
+    12: repeat(12, minmax(0, 1fr)),
+    13: repeat(13, minmax(0, 1fr)),
+    14: repeat(14, minmax(0, 1fr)),
+    15: repeat(15, minmax(0, 1fr)),
+    none: none,
+) !default;
+
+$grid-col: (
+	auto: auto,
+	span-1: span 1 / span 1,
+    span-2: span 2 / span 2,
+    span-3: span 3 / span 3,
+    span-4: span 4 / span 4,
+    span-5: span 5 / span 5,
+    span-6: span 6 / span 6,
+    span-full: 1 / -1,
+) !default;
+
+$grid-col-start: (
+	1: 1,
+	2: 2,
+    3: 3,
+	4: 4,
+    5: 5,
+	6: 6,
+    7: 7,
+	8: 8,
+    auto: auto,
+) !default;
+
+$grid-col-end: (
+	1: 1,
+	2: 2,
+    3: 3,
+	4: 4,
+    5: 5,
+	6: 6,
+    7: 7,
+	8: 8,
+    auto: auto,
+) !default;
+
+$grid-cols: (
+	1: repeat(1, minmax(0, 1fr)),
+    2: repeat(2, minmax(0, 1fr)),
+    3: repeat(3, minmax(0, 1fr)),
+    4: repeat(4, minmax(0, 1fr)),
+    5: repeat(5, minmax(0, 1fr)),
+    6: repeat(6, minmax(0, 1fr)),
+    7: repeat(7, minmax(0, 1fr)),
+    8: repeat(8, minmax(0, 1fr)),
+    9: repeat(9, minmax(0, 1fr)),
+    10: repeat(10, minmax(0, 1fr)),
+    11: repeat(11, minmax(0, 1fr)),
+    12: repeat(12, minmax(0, 1fr)),
+    13: repeat(13, minmax(0, 1fr)),
+    14: repeat(14, minmax(0, 1fr)),
+    15: repeat(15, minmax(0, 1fr)),
+    none: none,
 ) !default;
 
 $line-height: (
