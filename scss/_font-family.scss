@@ -4,11 +4,13 @@ font family
 $font-sans: 'BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"';
 $font-serif: 'Georgia, Cambria, "Times New Roman", Times, serif';
 $font-mono: 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace';
+$sys-ui: 'Proxima Nova', system-ui, sans-serif;
 
 $system-fonts: (
 	sans: $font-sans,
 	serif: $font-serif,
 	mono: $font-mono,
+    sys-ui: $sys-ui,
 ) !default;
 
 $google-fonts: (
@@ -48,6 +50,7 @@ $google-fonts: (
 	dancing-script: "'Dancing Script', cursive",
 	great-vibes: "'Great Vibes', cursive",
 	fira-code: "'Fira Code', monospace",
+    Nunito: "'Nunito', monospace",
 ) !default;
 
 $all-fonts: map-merge($system-fonts, $google-fonts);
